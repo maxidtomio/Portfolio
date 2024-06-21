@@ -1,0 +1,19 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.autoSave": "afterDelay",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.guides.bracketPairs": true,
+  "editor.cursorBlinking": "expand",
+  "editor.stickyScroll.enabled": true,
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnType": true,
+    "editor.autoIndent": "full"
+  },
+  "[java]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "redhat.java"
+  }
+}
