@@ -3,9 +3,8 @@
 }
 
 body {
-  background-color: #f0f0f0;
+  background-color: rgba(139, 97, 97, 0.63);
 }
-
 header {
   margin: 0;
   padding: 0;
@@ -18,7 +17,7 @@ nav {
   flex-direction: row;
   position: relative;
   height: 60px;
-  background-color: blue;
+  background-color: #2E3239;
   & ul {
     display: flex;
     gap: 1.5rem;
@@ -37,9 +36,29 @@ nav {
   }
 }
 
+.name {
+  display: flex;
+  justify-content: center;
+}
+
+.github-icon {
+  color: #E6EDF3;
+}
+
+.linkedin-icon {
+  color: #0864C0;
+}
+
 .mi-avatar,
 .sobre-mi {
   margin: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
 }
 
 .avatar {
@@ -93,6 +112,8 @@ nav {
 }
 
 .contact-form {
+  display: grid;
+  justify-content: center;
   margin: 2rem;
   & form {
     display: grid;
