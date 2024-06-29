@@ -3,7 +3,8 @@
 }
 
 body {
-  background-color: rgba(139, 97, 97, 0.63);
+  background-color: #9a7e0e4a;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header {
   margin: 0;
@@ -17,7 +18,7 @@ nav {
   flex-direction: row;
   position: relative;
   height: 60px;
-  background-color: #2E3239;
+  background-color: #b396251e; 
   & ul {
     display: flex;
     gap: 1.5rem;
@@ -39,10 +40,12 @@ nav {
 .name {
   display: flex;
   justify-content: center;
+  
 }
 
 .github-icon {
   color: #E6EDF3;
+  
 }
 
 .linkedin-icon {
@@ -65,8 +68,8 @@ nav {
   display: flex;
   margin-top: 30px;
   & img {
-    width: 145px;
-    height: 145px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: 3px solid black;
   }
@@ -75,14 +78,15 @@ nav {
   }
   & span {
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 3rem;
     margin-left: 1em;
   }
   & ul {
     justify-content: center;
     display: flex;
-    gap: 8px;
+    gap: 30px;
     margin-top: 10px;
+    font-size: 2rem;
   }
   & li {
     list-style: none;
@@ -93,13 +97,17 @@ nav {
   margin-block: 20px;
 }
 
+.sobre-mi {
+  text-align: justify;
+}
+
 .proyectos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   justify-content: center;
+  text-align: justify;
   margin: 2rem 2rem;
   gap: 20px;
-  text-align: center;
   & img {
     width: 100%;
     height: auto;
@@ -110,6 +118,7 @@ nav {
     height: 1px;
   }
 }
+
 
 .contact-form {
   display: grid;
